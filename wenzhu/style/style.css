@@ -1,0 +1,119 @@
+html {
+  /* px 表示 “像素（pixels）”: 基础字号为 10 像素 */
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  /* Google fonts 输出的 CSS */
+  font-family: 'Noto Sans SC', sans-serif;
+
+}
+
+body {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #ffffffce;
+  padding: 0 20px 20px 20px;
+  border: 5px solid rgba(0, 0, 0, 0);
+}
+
+a{
+
+  color: rgb(104, 10, 54);
+}
+
+footer{
+  font-size:small;
+  color: rgba(41, 41, 41, 0.651);
+}
+
+li {
+  list-style-type: "\1F44D";
+}
+
+
+.crumbs ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.crumb {
+  display: inline-block;
+}
+
+.crumb a::after {
+  display: inline-block;
+  color: #000;
+  content: '>';
+  font-size: 80%;
+  font-weight: bold;
+  padding: 0 5px;
+}
+
+nav {
+  border-bottom: 0 solid black;
+}
+
+
+
+aside {
+  width: 8%;
+  padding-left: .5rem;
+  margin-left: .5rem;
+  float: right;
+  box-shadow: inset 5px 0 5px -5px #29627e;
+  font-style: sans-serif;
+  color: #29627e;
+}
+
+aside > p {
+  margin: .5rem;
+}
+
+
+
+
+.example {
+  columns: 180px;
+  column-gap: em;  
+  column-fill:unset;
+}
+
+.example li {
+
+  list-style-type: "😮‍💨";
+  background: rgba(18, 175, 84, 0.609);
+  padding: 1em;
+  margin: 0 0 3em;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.example2 {
+  columns: 180px;
+  column-gap: 8em;  
+}
+
+.example2 li {
+  list-style-type: "🤨";
+  background: rgba(255, 255, 255, 0);
+  padding: 1em;
+  margin: 0 0 3em;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+.example3 {
+  columns: 180px;
+  column-gap: 2em;  
+}
+
+.example3 li {
+  list-style-type: "🥰";
+  background: rgba(255, 255, 255, 0);
+  padding: 1em;
+  margin: 0 0 3em;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
